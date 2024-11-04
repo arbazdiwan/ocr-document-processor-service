@@ -1,0 +1,12 @@
+service: dev-ocr-service
+runtime: nodejs20
+env: standard
+
+env_variables:
+  APP_ENV: "dev"
+  PROJECT_ID: "ocr-dev-440305"
+  TZ: IST
+  NODE_OPTIONS: ""
+  GOOGLE_CLOUD_PROJECT_ID: "ocr-dev-440305"
+  GOOGLE_CLOUD_BUCKET_NAME: "dev-ocr-demo-1"
+  OCR_PUB_SUB_TOPIC: "OCR_REQUESTS"

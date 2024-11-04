@@ -1,0 +1,12 @@
+node_modules
+dist
+uploads/
+
+# Environment variables
+.env
+.env.*
+
+# Service account keys
+config/service-account-key.json
+
+
